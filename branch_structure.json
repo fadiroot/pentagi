@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/flow-messages-vertical-scroll",
+    "fix/password-policy-character-count",
+    "fix/sandbox-port-collision",
+    "integrate/open-prs",
+    "integrate/open-prs-v2",
+    "main",
+    "origin",
+    "ui/stage-1-non-flows"
+  ],
+  "parent": {
+    "fix/flow-messages-vertical-scroll": "main",
+    "fix/password-policy-character-count": "main",
+    "fix/sandbox-port-collision": "main",
+    "integrate/open-prs": "main",
+    "integrate/open-prs-v2": "integrate/open-prs",
+    "main": null,
+    "origin": "main",
+    "ui/stage-1-non-flows": "main"
+  },
+  "order": [
+    "main",
+    "fix/flow-messages-vertical-scroll",
+    "fix/password-policy-character-count",
+    "fix/sandbox-port-collision",
+    "integrate/open-prs",
+    "origin",
+    "ui/stage-1-non-flows",
+    "integrate/open-prs-v2"
+  ]
+}
